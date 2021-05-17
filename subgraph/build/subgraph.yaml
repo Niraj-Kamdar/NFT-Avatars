@@ -1,0 +1,28 @@
+specVersion: 0.0.2
+description: Avatars
+schema:
+  file: schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: Avatars
+    network: kovan
+    source:
+      address: "0x1B619ec000AC0798CD886bEA1A682B3F2bf64A0A"
+      abi: Avatars
+      startBlock: 24895288
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.4
+      language: wasm/assemblyscript
+      entities:
+        - Avatar
+        - Attachment
+      abis:
+        - name: Avatars
+          file: Avatars\abis\Avatars.json
+      eventHandlers:
+        - event: AvatarCreated(indexed address,uint256)
+          handler: handleAvatarCreated
+        - event: AttachmentAdded(indexed address,uint256,string,uint256)
+          handler: handleAttachmentAdded
+      file: Avatars\Avatars.wasm
