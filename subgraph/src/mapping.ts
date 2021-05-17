@@ -7,7 +7,7 @@ const API_URL = "https://avatars.dicebear.com/api/avataaars/"
 export function handleAvatarCreated(event: AvatarCreated): void {
   let avatar = new Avatar(event.params.avatarId.toHex())
   avatar.owner = event.params.owner
-  avatar.imageUrl = API_URL + avatar.id + ".svg"
+  avatar.imageUrl = API_URL + avatar.id + ".svg?"
   avatar.save()
 }
 
@@ -25,7 +25,9 @@ export function handleAttachmentAdded(event: AttachmentAdded): void {
   attachment.save()
 
   // Change url
-  // avatar.save()
+  let attachmentParam: string = attachment.type + "[]=" + attachment.value + "&"
+  avatar.imageUrl = avatar.imageUrl + attachmentParam
+  avatar.save()
 }
 
 // export function handleAttachmentRemoved(event: AttachmentRemoved): void {

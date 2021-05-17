@@ -13,20 +13,20 @@ contract Avatars is ERC1155, IERC1155Receiver {
     uint256 public attachmentCreationFee;
 
     string[] public attachments = [
-        "Accessories", 
-        "AccessoriesColor", 
-        "ClotheGraphics", 
-        "Clothes", 
-        "ClothesColor", 
-        "Eyebrow", 
-        "Eyes", 
-        "FacialHair", 
-        "FacialHairColor", 
-        "HairColor", 
-        "HatColor", 
-        "Mouth", 
-        "Skin", 
-        "Top"
+        "accessories", 
+        "accessoriesColor", 
+        "clotheGraphics", 
+        "clothes", 
+        "clothesColor", 
+        "eyebrow", 
+        "eyes", 
+        "facialHair", 
+        "facialHairColor", 
+        "hairColor", 
+        "hatColor", 
+        "mouth", 
+        "skin", 
+        "top"
     ];
 
     uint[] public totalAttachments = [6, 18, 10, 12, 18, 18, 14, 10, 12, 12, 18, 12, 7, 37];
