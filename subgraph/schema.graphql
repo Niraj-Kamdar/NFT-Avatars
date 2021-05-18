@@ -1,0 +1,14 @@
+type Avatar @entity {
+  id: ID!
+  owner: Bytes!
+  imageUrl: String!
+  attachments: [Attachment!] @derivedFrom(field: "avatar")
+}
+
+type Attachment @entity {
+  id: ID!
+  tokenId: BigInt!
+  type: String!
+  value: String!
+  avatar: Avatar
+}
