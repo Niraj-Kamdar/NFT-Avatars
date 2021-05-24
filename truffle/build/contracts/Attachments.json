@@ -15,15 +15,15 @@
     "absolutePath": "/C/Users/Root/Documents/my_ethereum/NFT-Avatars/truffle/contracts/libs/Attachments.sol",
     "exportedSymbols": {
       "Attachments": [
-        653
+        718
       ]
     },
-    "id": 654,
+    "id": 719,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 434,
+        "id": 499,
         "literals": [
           "solidity",
           "^",
@@ -39,9 +39,9 @@
         "contractDependencies": [],
         "contractKind": "library",
         "fullyImplemented": true,
-        "id": 653,
+        "id": 718,
         "linearizedBaseContracts": [
-          653
+          718
         ],
         "name": "Attachments",
         "nameLocation": "68:11:3",
@@ -49,262 +49,262 @@
         "nodes": [
           {
             "canonicalName": "Attachments.Top",
-            "id": 472,
+            "id": 537,
             "members": [
               {
-                "id": 435,
+                "id": 500,
                 "name": "longHair",
                 "nameLocation": "109:8:3",
                 "nodeType": "EnumValue",
                 "src": "109:8:3"
               },
               {
-                "id": 436,
+                "id": 501,
                 "name": "shortHair",
                 "nameLocation": "128:9:3",
                 "nodeType": "EnumValue",
                 "src": "128:9:3"
               },
               {
-                "id": 437,
+                "id": 502,
                 "name": "eyepatch",
                 "nameLocation": "148:8:3",
                 "nodeType": "EnumValue",
                 "src": "148:8:3"
               },
               {
-                "id": 438,
+                "id": 503,
                 "name": "hat",
                 "nameLocation": "167:3:3",
                 "nodeType": "EnumValue",
                 "src": "167:3:3"
               },
               {
-                "id": 439,
+                "id": 504,
                 "name": "hijab",
                 "nameLocation": "181:5:3",
                 "nodeType": "EnumValue",
                 "src": "181:5:3"
               },
               {
-                "id": 440,
+                "id": 505,
                 "name": "turban",
                 "nameLocation": "197:6:3",
                 "nodeType": "EnumValue",
                 "src": "197:6:3"
               },
               {
-                "id": 441,
+                "id": 506,
                 "name": "bigHair",
                 "nameLocation": "214:7:3",
                 "nodeType": "EnumValue",
                 "src": "214:7:3"
               },
               {
-                "id": 442,
+                "id": 507,
                 "name": "bob",
                 "nameLocation": "232:3:3",
                 "nodeType": "EnumValue",
                 "src": "232:3:3"
               },
               {
-                "id": 443,
+                "id": 508,
                 "name": "bun",
                 "nameLocation": "246:3:3",
                 "nodeType": "EnumValue",
                 "src": "246:3:3"
               },
               {
-                "id": 444,
+                "id": 509,
                 "name": "curly",
                 "nameLocation": "260:5:3",
                 "nodeType": "EnumValue",
                 "src": "260:5:3"
               },
               {
-                "id": 445,
+                "id": 510,
                 "name": "curvy",
                 "nameLocation": "276:5:3",
                 "nodeType": "EnumValue",
                 "src": "276:5:3"
               },
               {
-                "id": 446,
+                "id": 511,
                 "name": "dreads",
                 "nameLocation": "292:6:3",
                 "nodeType": "EnumValue",
                 "src": "292:6:3"
               },
               {
-                "id": 447,
+                "id": 512,
                 "name": "frida",
                 "nameLocation": "309:5:3",
                 "nodeType": "EnumValue",
                 "src": "309:5:3"
               },
               {
-                "id": 448,
+                "id": 513,
                 "name": "fro",
                 "nameLocation": "325:3:3",
                 "nodeType": "EnumValue",
                 "src": "325:3:3"
               },
               {
-                "id": 449,
+                "id": 514,
                 "name": "froAndBand",
                 "nameLocation": "339:10:3",
                 "nodeType": "EnumValue",
                 "src": "339:10:3"
               },
               {
-                "id": 450,
+                "id": 515,
                 "name": "miaWallace",
                 "nameLocation": "360:10:3",
                 "nodeType": "EnumValue",
                 "src": "360:10:3"
               },
               {
-                "id": 451,
+                "id": 516,
                 "name": "longButNotTooLong",
                 "nameLocation": "381:17:3",
                 "nodeType": "EnumValue",
                 "src": "381:17:3"
               },
               {
-                "id": 452,
+                "id": 517,
                 "name": "shavedSides",
                 "nameLocation": "409:11:3",
                 "nodeType": "EnumValue",
                 "src": "409:11:3"
               },
               {
-                "id": 453,
+                "id": 518,
                 "name": "straight01",
                 "nameLocation": "431:10:3",
                 "nodeType": "EnumValue",
                 "src": "431:10:3"
               },
               {
-                "id": 454,
+                "id": 519,
                 "name": "straight02",
                 "nameLocation": "452:10:3",
                 "nodeType": "EnumValue",
                 "src": "452:10:3"
               },
               {
-                "id": 455,
+                "id": 520,
                 "name": "straightAndStrand",
                 "nameLocation": "473:17:3",
                 "nodeType": "EnumValue",
                 "src": "473:17:3"
               },
               {
-                "id": 456,
+                "id": 521,
                 "name": "dreads01",
                 "nameLocation": "501:8:3",
                 "nodeType": "EnumValue",
                 "src": "501:8:3"
               },
               {
-                "id": 457,
+                "id": 522,
                 "name": "dreads02",
                 "nameLocation": "520:8:3",
                 "nodeType": "EnumValue",
                 "src": "520:8:3"
               },
               {
-                "id": 458,
+                "id": 523,
                 "name": "frizzle",
                 "nameLocation": "539:7:3",
                 "nodeType": "EnumValue",
                 "src": "539:7:3"
               },
               {
-                "id": 459,
+                "id": 524,
                 "name": "shaggy",
                 "nameLocation": "557:6:3",
                 "nodeType": "EnumValue",
                 "src": "557:6:3"
               },
               {
-                "id": 460,
+                "id": 525,
                 "name": "shaggyMullet",
                 "nameLocation": "574:12:3",
                 "nodeType": "EnumValue",
                 "src": "574:12:3"
               },
               {
-                "id": 461,
+                "id": 526,
                 "name": "shortCurly",
                 "nameLocation": "597:10:3",
                 "nodeType": "EnumValue",
                 "src": "597:10:3"
               },
               {
-                "id": 462,
+                "id": 527,
                 "name": "shortFlat",
                 "nameLocation": "618:9:3",
                 "nodeType": "EnumValue",
                 "src": "618:9:3"
               },
               {
-                "id": 463,
+                "id": 528,
                 "name": "shortRound",
                 "nameLocation": "638:10:3",
                 "nodeType": "EnumValue",
                 "src": "638:10:3"
               },
               {
-                "id": 464,
+                "id": 529,
                 "name": "shortWaved",
                 "nameLocation": "659:10:3",
                 "nodeType": "EnumValue",
                 "src": "659:10:3"
               },
               {
-                "id": 465,
+                "id": 530,
                 "name": "sides",
                 "nameLocation": "680:5:3",
                 "nodeType": "EnumValue",
                 "src": "680:5:3"
               },
               {
-                "id": 466,
+                "id": 531,
                 "name": "theCaesar",
                 "nameLocation": "696:9:3",
                 "nodeType": "EnumValue",
                 "src": "696:9:3"
               },
               {
-                "id": 467,
+                "id": 532,
                 "name": "theCaesarAndSidePart",
                 "nameLocation": "716:20:3",
                 "nodeType": "EnumValue",
                 "src": "716:20:3"
               },
               {
-                "id": 468,
+                "id": 533,
                 "name": "winterHat01",
                 "nameLocation": "747:11:3",
                 "nodeType": "EnumValue",
                 "src": "747:11:3"
               },
               {
-                "id": 469,
+                "id": 534,
                 "name": "winterHat02",
                 "nameLocation": "769:11:3",
                 "nodeType": "EnumValue",
                 "src": "769:11:3"
               },
               {
-                "id": 470,
+                "id": 535,
                 "name": "winterHat03",
                 "nameLocation": "791:11:3",
                 "nodeType": "EnumValue",
                 "src": "791:11:3"
               },
               {
-                "id": 471,
+                "id": 536,
                 "name": "winterHat04",
                 "nameLocation": "813:11:3",
                 "nodeType": "EnumValue",
@@ -318,129 +318,129 @@
           },
           {
             "canonicalName": "Attachments.HatColor",
-            "id": 491,
+            "id": 556,
             "members": [
               {
-                "id": 473,
+                "id": 538,
                 "name": "black",
                 "nameLocation": "864:5:3",
                 "nodeType": "EnumValue",
                 "src": "864:5:3"
               },
               {
-                "id": 474,
+                "id": 539,
                 "name": "blue",
                 "nameLocation": "880:4:3",
                 "nodeType": "EnumValue",
                 "src": "880:4:3"
               },
               {
-                "id": 475,
+                "id": 540,
                 "name": "blue01",
                 "nameLocation": "895:6:3",
                 "nodeType": "EnumValue",
                 "src": "895:6:3"
               },
               {
-                "id": 476,
+                "id": 541,
                 "name": "blue02",
                 "nameLocation": "912:6:3",
                 "nodeType": "EnumValue",
                 "src": "912:6:3"
               },
               {
-                "id": 477,
+                "id": 542,
                 "name": "blue03",
                 "nameLocation": "929:6:3",
                 "nodeType": "EnumValue",
                 "src": "929:6:3"
               },
               {
-                "id": 478,
+                "id": 543,
                 "name": "gray",
                 "nameLocation": "946:4:3",
                 "nodeType": "EnumValue",
                 "src": "946:4:3"
               },
               {
-                "id": 479,
+                "id": 544,
                 "name": "gray01",
                 "nameLocation": "961:6:3",
                 "nodeType": "EnumValue",
                 "src": "961:6:3"
               },
               {
-                "id": 480,
+                "id": 545,
                 "name": "gray02",
                 "nameLocation": "978:6:3",
                 "nodeType": "EnumValue",
                 "src": "978:6:3"
               },
               {
-                "id": 481,
+                "id": 546,
                 "name": "heather",
                 "nameLocation": "995:7:3",
                 "nodeType": "EnumValue",
                 "src": "995:7:3"
               },
               {
-                "id": 482,
+                "id": 547,
                 "name": "pastel",
                 "nameLocation": "1013:6:3",
                 "nodeType": "EnumValue",
                 "src": "1013:6:3"
               },
               {
-                "id": 483,
+                "id": 548,
                 "name": "pastelBlue",
                 "nameLocation": "1030:10:3",
                 "nodeType": "EnumValue",
                 "src": "1030:10:3"
               },
               {
-                "id": 484,
+                "id": 549,
                 "name": "pastelGreen",
                 "nameLocation": "1051:11:3",
                 "nodeType": "EnumValue",
                 "src": "1051:11:3"
               },
               {
-                "id": 485,
+                "id": 550,
                 "name": "pastelOrange",
                 "nameLocation": "1073:12:3",
                 "nodeType": "EnumValue",
                 "src": "1073:12:3"
               },
               {
-                "id": 486,
+                "id": 551,
                 "name": "pastelRed",
                 "nameLocation": "1096:9:3",
                 "nodeType": "EnumValue",
                 "src": "1096:9:3"
               },
               {
-                "id": 487,
+                "id": 552,
                 "name": "pastelYellow",
                 "nameLocation": "1116:12:3",
                 "nodeType": "EnumValue",
                 "src": "1116:12:3"
               },
               {
-                "id": 488,
+                "id": 553,
                 "name": "pink",
                 "nameLocation": "1139:4:3",
                 "nodeType": "EnumValue",
                 "src": "1139:4:3"
               },
               {
-                "id": 489,
+                "id": 554,
                 "name": "red",
                 "nameLocation": "1154:3:3",
                 "nodeType": "EnumValue",
                 "src": "1154:3:3"
               },
               {
-                "id": 490,
+                "id": 555,
                 "name": "white",
                 "nameLocation": "1168:5:3",
                 "nodeType": "EnumValue",
@@ -454,87 +454,87 @@
           },
           {
             "canonicalName": "Attachments.HairColor",
-            "id": 504,
+            "id": 569,
             "members": [
               {
-                "id": 492,
+                "id": 557,
                 "name": "auburn",
                 "nameLocation": "1214:6:3",
                 "nodeType": "EnumValue",
                 "src": "1214:6:3"
               },
               {
-                "id": 493,
+                "id": 558,
                 "name": "black",
                 "nameLocation": "1231:5:3",
                 "nodeType": "EnumValue",
                 "src": "1231:5:3"
               },
               {
-                "id": 494,
+                "id": 559,
                 "name": "blonde",
                 "nameLocation": "1247:6:3",
                 "nodeType": "EnumValue",
                 "src": "1247:6:3"
               },
               {
-                "id": 495,
+                "id": 560,
                 "name": "blondeGolden",
                 "nameLocation": "1264:12:3",
                 "nodeType": "EnumValue",
                 "src": "1264:12:3"
               },
               {
-                "id": 496,
+                "id": 561,
                 "name": "brown",
                 "nameLocation": "1287:5:3",
                 "nodeType": "EnumValue",
                 "src": "1287:5:3"
               },
               {
-                "id": 497,
+                "id": 562,
                 "name": "brownDark",
                 "nameLocation": "1303:9:3",
                 "nodeType": "EnumValue",
                 "src": "1303:9:3"
               },
               {
-                "id": 498,
+                "id": 563,
                 "name": "pastel",
                 "nameLocation": "1323:6:3",
                 "nodeType": "EnumValue",
                 "src": "1323:6:3"
               },
               {
-                "id": 499,
+                "id": 564,
                 "name": "pastelPink",
                 "nameLocation": "1340:10:3",
                 "nodeType": "EnumValue",
                 "src": "1340:10:3"
               },
               {
-                "id": 500,
+                "id": 565,
                 "name": "platinum",
                 "nameLocation": "1361:8:3",
                 "nodeType": "EnumValue",
                 "src": "1361:8:3"
               },
               {
-                "id": 501,
+                "id": 566,
                 "name": "red",
                 "nameLocation": "1380:3:3",
                 "nodeType": "EnumValue",
                 "src": "1380:3:3"
               },
               {
-                "id": 502,
+                "id": 567,
                 "name": "gray",
                 "nameLocation": "1394:4:3",
                 "nodeType": "EnumValue",
                 "src": "1394:4:3"
               },
               {
-                "id": 503,
+                "id": 568,
                 "name": "silverGray",
                 "nameLocation": "1409:10:3",
                 "nodeType": "EnumValue",
@@ -548,45 +548,45 @@
           },
           {
             "canonicalName": "Attachments.Accessories",
-            "id": 511,
+            "id": 576,
             "members": [
               {
-                "id": 505,
+                "id": 570,
                 "name": "kurt",
                 "nameLocation": "1462:4:3",
                 "nodeType": "EnumValue",
                 "src": "1462:4:3"
               },
               {
-                "id": 506,
+                "id": 571,
                 "name": "prescription01",
                 "nameLocation": "1477:14:3",
                 "nodeType": "EnumValue",
                 "src": "1477:14:3"
               },
               {
-                "id": 507,
+                "id": 572,
                 "name": "prescription02",
                 "nameLocation": "1502:14:3",
                 "nodeType": "EnumValue",
                 "src": "1502:14:3"
               },
               {
-                "id": 508,
+                "id": 573,
                 "name": "round",
                 "nameLocation": "1527:5:3",
                 "nodeType": "EnumValue",
                 "src": "1527:5:3"
               },
               {
-                "id": 509,
+                "id": 574,
                 "name": "sunglasses",
                 "nameLocation": "1543:10:3",
                 "nodeType": "EnumValue",
                 "src": "1543:10:3"
               },
               {
-                "id": 510,
+                "id": 575,
                 "name": "wayfarers",
                 "nameLocation": "1564:9:3",
                 "nodeType": "EnumValue",
@@ -600,129 +600,129 @@
           },
           {
             "canonicalName": "Attachments.AccessoriesColor",
-            "id": 530,
+            "id": 595,
             "members": [
               {
-                "id": 512,
+                "id": 577,
                 "name": "black",
                 "nameLocation": "1621:5:3",
                 "nodeType": "EnumValue",
                 "src": "1621:5:3"
               },
               {
-                "id": 513,
+                "id": 578,
                 "name": "blue",
                 "nameLocation": "1637:4:3",
                 "nodeType": "EnumValue",
                 "src": "1637:4:3"
               },
               {
-                "id": 514,
+                "id": 579,
                 "name": "blue01",
                 "nameLocation": "1652:6:3",
                 "nodeType": "EnumValue",
                 "src": "1652:6:3"
               },
               {
-                "id": 515,
+                "id": 580,
                 "name": "blue02",
                 "nameLocation": "1669:6:3",
                 "nodeType": "EnumValue",
                 "src": "1669:6:3"
               },
               {
-                "id": 516,
+                "id": 581,
                 "name": "blue03",
                 "nameLocation": "1686:6:3",
                 "nodeType": "EnumValue",
                 "src": "1686:6:3"
               },
               {
-                "id": 517,
+                "id": 582,
                 "name": "gray",
                 "nameLocation": "1703:4:3",
                 "nodeType": "EnumValue",
                 "src": "1703:4:3"
               },
               {
-                "id": 518,
+                "id": 583,
                 "name": "gray01",
                 "nameLocation": "1718:6:3",
                 "nodeType": "EnumValue",
                 "src": "1718:6:3"
               },
               {
-                "id": 519,
+                "id": 584,
                 "name": "gray02",
                 "nameLocation": "1735:6:3",
                 "nodeType": "EnumValue",
                 "src": "1735:6:3"
               },
               {
-                "id": 520,
+                "id": 585,
                 "name": "heather",
                 "nameLocation": "1752:7:3",
                 "nodeType": "EnumValue",
                 "src": "1752:7:3"
               },
               {
-                "id": 521,
+                "id": 586,
                 "name": "pastel",
                 "nameLocation": "1770:6:3",
                 "nodeType": "EnumValue",
                 "src": "1770:6:3"
               },
               {
-                "id": 522,
+                "id": 587,
                 "name": "pastelBlue",
                 "nameLocation": "1787:10:3",
                 "nodeType": "EnumValue",
                 "src": "1787:10:3"
               },
               {
-                "id": 523,
+                "id": 588,
                 "name": "pastelGreen",
                 "nameLocation": "1808:11:3",
                 "nodeType": "EnumValue",
                 "src": "1808:11:3"
               },
               {
-                "id": 524,
+                "id": 589,
                 "name": "pastelOrange",
                 "nameLocation": "1830:12:3",
                 "nodeType": "EnumValue",
                 "src": "1830:12:3"
               },
               {
-                "id": 525,
+                "id": 590,
                 "name": "pastelRed",
                 "nameLocation": "1853:9:3",
                 "nodeType": "EnumValue",
                 "src": "1853:9:3"
               },
               {
-                "id": 526,
+                "id": 591,
                 "name": "pastelYellow",
                 "nameLocation": "1873:12:3",
                 "nodeType": "EnumValue",
                 "src": "1873:12:3"
               },
               {
-                "id": 527,
+                "id": 592,
                 "name": "pink",
                 "nameLocation": "1896:4:3",
                 "nodeType": "EnumValue",
                 "src": "1896:4:3"
               },
               {
-                "id": 528,
+                "id": 593,
                 "name": "red",
                 "nameLocation": "1911:3:3",
                 "nodeType": "EnumValue",
                 "src": "1911:3:3"
               },
               {
-                "id": 529,
+                "id": 594,
                 "name": "white",
                 "nameLocation": "1925:5:3",
                 "nodeType": "EnumValue",
@@ -736,73 +736,73 @@
           },
           {
             "canonicalName": "Attachments.FacialHair",
-            "id": 541,
+            "id": 606,
             "members": [
               {
-                "id": 531,
+                "id": 596,
                 "name": "medium",
                 "nameLocation": "1972:6:3",
                 "nodeType": "EnumValue",
                 "src": "1972:6:3"
               },
               {
-                "id": 532,
+                "id": 597,
                 "name": "beardMedium",
                 "nameLocation": "1989:11:3",
                 "nodeType": "EnumValue",
                 "src": "1989:11:3"
               },
               {
-                "id": 533,
+                "id": 598,
                 "name": "light",
                 "nameLocation": "2011:5:3",
                 "nodeType": "EnumValue",
                 "src": "2011:5:3"
               },
               {
-                "id": 534,
+                "id": 599,
                 "name": "beardLight",
                 "nameLocation": "2027:10:3",
                 "nodeType": "EnumValue",
                 "src": "2027:10:3"
               },
               {
-                "id": 535,
+                "id": 600,
                 "name": "majestic",
                 "nameLocation": "2048:8:3",
                 "nodeType": "EnumValue",
                 "src": "2048:8:3"
               },
               {
-                "id": 536,
+                "id": 601,
                 "name": "beardMajestic",
                 "nameLocation": "2067:13:3",
                 "nodeType": "EnumValue",
                 "src": "2067:13:3"
               },
               {
-                "id": 537,
+                "id": 602,
                 "name": "fancy",
                 "nameLocation": "2091:5:3",
                 "nodeType": "EnumValue",
                 "src": "2091:5:3"
               },
               {
-                "id": 538,
+                "id": 603,
                 "name": "moustaceFancy",
                 "nameLocation": "2107:13:3",
                 "nodeType": "EnumValue",
                 "src": "2107:13:3"
               },
               {
-                "id": 539,
+                "id": 604,
                 "name": "magnum",
                 "nameLocation": "2131:6:3",
                 "nodeType": "EnumValue",
                 "src": "2131:6:3"
               },
               {
-                "id": 540,
+                "id": 605,
                 "name": "moustacheMagnum",
                 "nameLocation": "2148:15:3",
                 "nodeType": "EnumValue",
@@ -816,87 +816,87 @@
           },
           {
             "canonicalName": "Attachments.FacialHairColor",
-            "id": 554,
+            "id": 619,
             "members": [
               {
-                "id": 542,
+                "id": 607,
                 "name": "auburn",
                 "nameLocation": "2210:6:3",
                 "nodeType": "EnumValue",
                 "src": "2210:6:3"
               },
               {
-                "id": 543,
+                "id": 608,
                 "name": "black",
                 "nameLocation": "2227:5:3",
                 "nodeType": "EnumValue",
                 "src": "2227:5:3"
               },
               {
-                "id": 544,
+                "id": 609,
                 "name": "blonde",
                 "nameLocation": "2243:6:3",
                 "nodeType": "EnumValue",
                 "src": "2243:6:3"
               },
               {
-                "id": 545,
+                "id": 610,
                 "name": "blondeGolden",
                 "nameLocation": "2260:12:3",
                 "nodeType": "EnumValue",
                 "src": "2260:12:3"
               },
               {
-                "id": 546,
+                "id": 611,
                 "name": "brown",
                 "nameLocation": "2283:5:3",
                 "nodeType": "EnumValue",
                 "src": "2283:5:3"
               },
               {
-                "id": 547,
+                "id": 612,
                 "name": "brownDark",
                 "nameLocation": "2299:9:3",
                 "nodeType": "EnumValue",
                 "src": "2299:9:3"
               },
               {
-                "id": 548,
+                "id": 613,
                 "name": "pastel",
                 "nameLocation": "2319:6:3",
                 "nodeType": "EnumValue",
                 "src": "2319:6:3"
               },
               {
-                "id": 549,
+                "id": 614,
                 "name": "pastelPink",
                 "nameLocation": "2336:10:3",
                 "nodeType": "EnumValue",
                 "src": "2336:10:3"
               },
               {
-                "id": 550,
+                "id": 615,
                 "name": "platinum",
                 "nameLocation": "2357:8:3",
                 "nodeType": "EnumValue",
                 "src": "2357:8:3"
               },
               {
-                "id": 551,
+                "id": 616,
                 "name": "red",
                 "nameLocation": "2376:3:3",
                 "nodeType": "EnumValue",
                 "src": "2376:3:3"
               },
               {
-                "id": 552,
+                "id": 617,
                 "name": "gray",
                 "nameLocation": "2390:4:3",
                 "nodeType": "EnumValue",
                 "src": "2390:4:3"
               },
               {
-                "id": 553,
+                "id": 618,
                 "name": "silverGray",
                 "nameLocation": "2405:10:3",
                 "nodeType": "EnumValue",
@@ -910,87 +910,87 @@
           },
           {
             "canonicalName": "Attachments.Clothes",
-            "id": 567,
+            "id": 632,
             "members": [
               {
-                "id": 555,
+                "id": 620,
                 "name": "blazer",
                 "nameLocation": "2454:6:3",
                 "nodeType": "EnumValue",
                 "src": "2454:6:3"
               },
               {
-                "id": 556,
+                "id": 621,
                 "name": "blazerAndShirt",
                 "nameLocation": "2471:14:3",
                 "nodeType": "EnumValue",
                 "src": "2471:14:3"
               },
               {
-                "id": 557,
+                "id": 622,
                 "name": "blazerAndSweater",
                 "nameLocation": "2496:16:3",
                 "nodeType": "EnumValue",
                 "src": "2496:16:3"
               },
               {
-                "id": 558,
+                "id": 623,
                 "name": "sweater",
                 "nameLocation": "2523:7:3",
                 "nodeType": "EnumValue",
                 "src": "2523:7:3"
               },
               {
-                "id": 559,
+                "id": 624,
                 "name": "collarAndSweater",
                 "nameLocation": "2541:16:3",
                 "nodeType": "EnumValue",
                 "src": "2541:16:3"
               },
               {
-                "id": 560,
+                "id": 625,
                 "name": "shirt",
                 "nameLocation": "2568:5:3",
                 "nodeType": "EnumValue",
                 "src": "2568:5:3"
               },
               {
-                "id": 561,
+                "id": 626,
                 "name": "graphicShirt",
                 "nameLocation": "2584:12:3",
                 "nodeType": "EnumValue",
                 "src": "2584:12:3"
               },
               {
-                "id": 562,
+                "id": 627,
                 "name": "shirtCrewNeck",
                 "nameLocation": "2607:13:3",
                 "nodeType": "EnumValue",
                 "src": "2607:13:3"
               },
               {
-                "id": 563,
+                "id": 628,
                 "name": "shirtScoopNeck",
                 "nameLocation": "2631:14:3",
                 "nodeType": "EnumValue",
                 "src": "2631:14:3"
               },
               {
-                "id": 564,
+                "id": 629,
                 "name": "shirtVNeck",
                 "nameLocation": "2656:10:3",
                 "nodeType": "EnumValue",
                 "src": "2656:10:3"
               },
               {
-                "id": 565,
+                "id": 630,
                 "name": "hoodie",
                 "nameLocation": "2677:6:3",
                 "nodeType": "EnumValue",
                 "src": "2677:6:3"
               },
               {
-                "id": 566,
+                "id": 631,
                 "name": "overall",
                 "nameLocation": "2694:7:3",
                 "nodeType": "EnumValue",
@@ -1004,129 +1004,129 @@
           },
           {
             "canonicalName": "Attachments.ClothesColor",
-            "id": 586,
+            "id": 651,
             "members": [
               {
-                "id": 568,
+                "id": 633,
                 "name": "black",
                 "nameLocation": "2745:5:3",
                 "nodeType": "EnumValue",
                 "src": "2745:5:3"
               },
               {
-                "id": 569,
+                "id": 634,
                 "name": "blue",
                 "nameLocation": "2761:4:3",
                 "nodeType": "EnumValue",
                 "src": "2761:4:3"
               },
               {
-                "id": 570,
+                "id": 635,
                 "name": "blue01",
                 "nameLocation": "2776:6:3",
                 "nodeType": "EnumValue",
                 "src": "2776:6:3"
               },
               {
-                "id": 571,
+                "id": 636,
                 "name": "blue02",
                 "nameLocation": "2793:6:3",
                 "nodeType": "EnumValue",
                 "src": "2793:6:3"
               },
               {
-                "id": 572,
+                "id": 637,
                 "name": "blue03",
                 "nameLocation": "2810:6:3",
                 "nodeType": "EnumValue",
                 "src": "2810:6:3"
               },
               {
-                "id": 573,
+                "id": 638,
                 "name": "gray",
                 "nameLocation": "2827:4:3",
                 "nodeType": "EnumValue",
                 "src": "2827:4:3"
               },
               {
-                "id": 574,
+                "id": 639,
                 "name": "gray01",
                 "nameLocation": "2842:6:3",
                 "nodeType": "EnumValue",
                 "src": "2842:6:3"
               },
               {
-                "id": 575,
+                "id": 640,
                 "name": "gray02",
                 "nameLocation": "2859:6:3",
                 "nodeType": "EnumValue",
                 "src": "2859:6:3"
               },
               {
-                "id": 576,
+                "id": 641,
                 "name": "heather",
                 "nameLocation": "2876:7:3",
                 "nodeType": "EnumValue",
                 "src": "2876:7:3"
               },
               {
-                "id": 577,
+                "id": 642,
                 "name": "pastel",
                 "nameLocation": "2894:6:3",
                 "nodeType": "EnumValue",
                 "src": "2894:6:3"
               },
               {
-                "id": 578,
+                "id": 643,
                 "name": "pastelBlue",
                 "nameLocation": "2911:10:3",
                 "nodeType": "EnumValue",
                 "src": "2911:10:3"
               },
               {
-                "id": 579,
+                "id": 644,
                 "name": "pastelGreen",
                 "nameLocation": "2932:11:3",
                 "nodeType": "EnumValue",
                 "src": "2932:11:3"
               },
               {
-                "id": 580,
+                "id": 645,
                 "name": "pastelOrange",
                 "nameLocation": "2954:12:3",
                 "nodeType": "EnumValue",
                 "src": "2954:12:3"
               },
               {
-                "id": 581,
+                "id": 646,
                 "name": "pastelRed",
                 "nameLocation": "2977:9:3",
                 "nodeType": "EnumValue",
                 "src": "2977:9:3"
               },
               {
-                "id": 582,
+                "id": 647,
                 "name": "pastelYellow",
                 "nameLocation": "2997:12:3",
                 "nodeType": "EnumValue",
                 "src": "2997:12:3"
               },
               {
-                "id": 583,
+                "id": 648,
                 "name": "pink",
                 "nameLocation": "3020:4:3",
                 "nodeType": "EnumValue",
                 "src": "3020:4:3"
               },
               {
-                "id": 584,
+                "id": 649,
                 "name": "red",
                 "nameLocation": "3035:3:3",
                 "nodeType": "EnumValue",
                 "src": "3035:3:3"
               },
               {
-                "id": 585,
+                "id": 650,
                 "name": "white",
                 "nameLocation": "3049:5:3",
                 "nodeType": "EnumValue",
@@ -1140,101 +1140,101 @@
           },
           {
             "canonicalName": "Attachments.Eyes",
-            "id": 601,
+            "id": 666,
             "members": [
               {
-                "id": 587,
+                "id": 652,
                 "name": "close",
                 "nameLocation": "3090:5:3",
                 "nodeType": "EnumValue",
                 "src": "3090:5:3"
               },
               {
-                "id": 588,
+                "id": 653,
                 "name": "closed",
                 "nameLocation": "3106:6:3",
                 "nodeType": "EnumValue",
                 "src": "3106:6:3"
               },
               {
-                "id": 589,
+                "id": 654,
                 "name": "cry",
                 "nameLocation": "3123:3:3",
                 "nodeType": "EnumValue",
                 "src": "3123:3:3"
               },
               {
-                "id": 590,
+                "id": 655,
                 "name": "dizzy",
                 "nameLocation": "3137:5:3",
                 "nodeType": "EnumValue",
                 "src": "3137:5:3"
               },
               {
-                "id": 591,
+                "id": 656,
                 "name": "xDizzy",
                 "nameLocation": "3153:6:3",
                 "nodeType": "EnumValue",
                 "src": "3153:6:3"
               },
               {
-                "id": 592,
+                "id": 657,
                 "name": "roll",
                 "nameLocation": "3170:4:3",
                 "nodeType": "EnumValue",
                 "src": "3170:4:3"
               },
               {
-                "id": 593,
+                "id": 658,
                 "name": "eyeRoll",
                 "nameLocation": "3185:7:3",
                 "nodeType": "EnumValue",
                 "src": "3185:7:3"
               },
               {
-                "id": 594,
+                "id": 659,
                 "name": "happy",
                 "nameLocation": "3203:5:3",
                 "nodeType": "EnumValue",
                 "src": "3203:5:3"
               },
               {
-                "id": 595,
+                "id": 660,
                 "name": "hearts",
                 "nameLocation": "3219:6:3",
                 "nodeType": "EnumValue",
                 "src": "3219:6:3"
               },
               {
-                "id": 596,
+                "id": 661,
                 "name": "side",
                 "nameLocation": "3236:4:3",
                 "nodeType": "EnumValue",
                 "src": "3236:4:3"
               },
               {
-                "id": 597,
+                "id": 662,
                 "name": "squint",
                 "nameLocation": "3251:6:3",
                 "nodeType": "EnumValue",
                 "src": "3251:6:3"
               },
               {
-                "id": 598,
+                "id": 663,
                 "name": "surprised",
                 "nameLocation": "3268:9:3",
                 "nodeType": "EnumValue",
                 "src": "3268:9:3"
               },
               {
-                "id": 599,
+                "id": 664,
                 "name": "wink",
                 "nameLocation": "3288:4:3",
                 "nodeType": "EnumValue",
                 "src": "3288:4:3"
               },
               {
-                "id": 600,
+                "id": 665,
                 "name": "winkWacky",
                 "nameLocation": "3303:9:3",
                 "nodeType": "EnumValue",
@@ -1248,129 +1248,129 @@
           },
           {
             "canonicalName": "Attachments.Eyebrow",
-            "id": 620,
+            "id": 685,
             "members": [
               {
-                "id": 602,
+                "id": 667,
                 "name": "angry",
                 "nameLocation": "3351:5:3",
                 "nodeType": "EnumValue",
                 "src": "3351:5:3"
               },
               {
-                "id": 603,
+                "id": 668,
                 "name": "angryNatural",
                 "nameLocation": "3367:12:3",
                 "nodeType": "EnumValue",
                 "src": "3367:12:3"
               },
               {
-                "id": 604,
+                "id": 669,
                 "name": "defaultNatural",
                 "nameLocation": "3390:14:3",
                 "nodeType": "EnumValue",
                 "src": "3390:14:3"
               },
               {
-                "id": 605,
+                "id": 670,
                 "name": "flat",
                 "nameLocation": "3415:4:3",
                 "nodeType": "EnumValue",
                 "src": "3415:4:3"
               },
               {
-                "id": 606,
+                "id": 671,
                 "name": "flatNatural",
                 "nameLocation": "3430:11:3",
                 "nodeType": "EnumValue",
                 "src": "3430:11:3"
               },
               {
-                "id": 607,
+                "id": 672,
                 "name": "raised",
                 "nameLocation": "3452:6:3",
                 "nodeType": "EnumValue",
                 "src": "3452:6:3"
               },
               {
-                "id": 608,
+                "id": 673,
                 "name": "raisedExcited",
                 "nameLocation": "3469:13:3",
                 "nodeType": "EnumValue",
                 "src": "3469:13:3"
               },
               {
-                "id": 609,
+                "id": 674,
                 "name": "raisedExcitedNatural",
                 "nameLocation": "3493:20:3",
                 "nodeType": "EnumValue",
                 "src": "3493:20:3"
               },
               {
-                "id": 610,
+                "id": 675,
                 "name": "sad",
                 "nameLocation": "3524:3:3",
                 "nodeType": "EnumValue",
                 "src": "3524:3:3"
               },
               {
-                "id": 611,
+                "id": 676,
                 "name": "sadConcerned",
                 "nameLocation": "3538:12:3",
                 "nodeType": "EnumValue",
                 "src": "3538:12:3"
               },
               {
-                "id": 612,
+                "id": 677,
                 "name": "sadConcernedNatural",
                 "nameLocation": "3561:19:3",
                 "nodeType": "EnumValue",
                 "src": "3561:19:3"
               },
               {
-                "id": 613,
+                "id": 678,
                 "name": "unibrow",
                 "nameLocation": "3591:7:3",
                 "nodeType": "EnumValue",
                 "src": "3591:7:3"
               },
               {
-                "id": 614,
+                "id": 679,
                 "name": "unibrowNatural",
                 "nameLocation": "3609:14:3",
                 "nodeType": "EnumValue",
                 "src": "3609:14:3"
               },
               {
-                "id": 615,
+                "id": 680,
                 "name": "up",
                 "nameLocation": "3634:2:3",
                 "nodeType": "EnumValue",
                 "src": "3634:2:3"
               },
               {
-                "id": 616,
+                "id": 681,
                 "name": "upDown",
                 "nameLocation": "3647:6:3",
                 "nodeType": "EnumValue",
                 "src": "3647:6:3"
               },
               {
-                "id": 617,
+                "id": 682,
                 "name": "upDownNatural",
                 "nameLocation": "3664:13:3",
                 "nodeType": "EnumValue",
                 "src": "3664:13:3"
               },
               {
-                "id": 618,
+                "id": 683,
                 "name": "frown",
                 "nameLocation": "3688:5:3",
                 "nodeType": "EnumValue",
                 "src": "3688:5:3"
               },
               {
-                "id": 619,
+                "id": 684,
                 "name": "frownNatural",
                 "nameLocation": "3704:12:3",
                 "nodeType": "EnumValue",
@@ -1384,87 +1384,87 @@
           },
           {
             "canonicalName": "Attachments.Mouth",
-            "id": 633,
+            "id": 698,
             "members": [
               {
-                "id": 621,
+                "id": 686,
                 "name": "concerned",
                 "nameLocation": "3753:9:3",
                 "nodeType": "EnumValue",
                 "src": "3753:9:3"
               },
               {
-                "id": 622,
+                "id": 687,
                 "name": "disbelief",
                 "nameLocation": "3773:9:3",
                 "nodeType": "EnumValue",
                 "src": "3773:9:3"
               },
               {
-                "id": 623,
+                "id": 688,
                 "name": "eating",
                 "nameLocation": "3793:6:3",
                 "nodeType": "EnumValue",
                 "src": "3793:6:3"
               },
               {
-                "id": 624,
+                "id": 689,
                 "name": "grimace",
                 "nameLocation": "3810:7:3",
                 "nodeType": "EnumValue",
                 "src": "3810:7:3"
               },
               {
-                "id": 625,
+                "id": 690,
                 "name": "sad",
                 "nameLocation": "3828:3:3",
                 "nodeType": "EnumValue",
                 "src": "3828:3:3"
               },
               {
-                "id": 626,
+                "id": 691,
                 "name": "scream",
                 "nameLocation": "3842:6:3",
                 "nodeType": "EnumValue",
                 "src": "3842:6:3"
               },
               {
-                "id": 627,
+                "id": 692,
                 "name": "screamOpen",
                 "nameLocation": "3859:10:3",
                 "nodeType": "EnumValue",
                 "src": "3859:10:3"
               },
               {
-                "id": 628,
+                "id": 693,
                 "name": "serious",
                 "nameLocation": "3880:7:3",
                 "nodeType": "EnumValue",
                 "src": "3880:7:3"
               },
               {
-                "id": 629,
+                "id": 694,
                 "name": "smile",
                 "nameLocation": "3898:5:3",
                 "nodeType": "EnumValue",
                 "src": "3898:5:3"
               },
               {
-                "id": 630,
+                "id": 695,
                 "name": "tongue",
                 "nameLocation": "3914:6:3",
                 "nodeType": "EnumValue",
                 "src": "3914:6:3"
               },
               {
-                "id": 631,
+                "id": 696,
                 "name": "twinkle",
                 "nameLocation": "3931:7:3",
                 "nodeType": "EnumValue",
                 "src": "3931:7:3"
               },
               {
-                "id": 632,
+                "id": 697,
                 "name": "vomit",
                 "nameLocation": "3949:5:3",
                 "nodeType": "EnumValue",
@@ -1478,52 +1478,52 @@
           },
           {
             "canonicalName": "Attachments.Skin",
-            "id": 641,
+            "id": 706,
             "members": [
               {
-                "id": 634,
+                "id": 699,
                 "name": "tanned",
                 "nameLocation": "3990:6:3",
                 "nodeType": "EnumValue",
                 "src": "3990:6:3"
               },
               {
-                "id": 635,
+                "id": 700,
                 "name": "yellow",
                 "nameLocation": "4007:6:3",
                 "nodeType": "EnumValue",
                 "src": "4007:6:3"
               },
               {
-                "id": 636,
+                "id": 701,
                 "name": "pale",
                 "nameLocation": "4025:4:3",
                 "nodeType": "EnumValue",
                 "src": "4025:4:3"
               },
               {
-                "id": 637,
+                "id": 702,
                 "name": "light",
                 "nameLocation": "4041:5:3",
                 "nodeType": "EnumValue",
                 "src": "4041:5:3"
               },
               {
-                "id": 638,
+                "id": 703,
                 "name": "brown",
                 "nameLocation": "4057:5:3",
                 "nodeType": "EnumValue",
                 "src": "4057:5:3"
               },
               {
-                "id": 639,
+                "id": 704,
                 "name": "darkBrown",
                 "nameLocation": "4074:9:3",
                 "nodeType": "EnumValue",
                 "src": "4074:9:3"
               },
               {
-                "id": 640,
+                "id": 705,
                 "name": "black",
                 "nameLocation": "4095:5:3",
                 "nodeType": "EnumValue",
@@ -1537,73 +1537,73 @@
           },
           {
             "canonicalName": "Attachments.ClotheGraphics",
-            "id": 652,
+            "id": 717,
             "members": [
               {
-                "id": 642,
+                "id": 707,
                 "name": "skullOutline",
                 "nameLocation": "4146:12:3",
                 "nodeType": "EnumValue",
                 "src": "4146:12:3"
               },
               {
-                "id": 643,
+                "id": 708,
                 "name": "skull",
                 "nameLocation": "4169:5:3",
                 "nodeType": "EnumValue",
                 "src": "4169:5:3"
               },
               {
-                "id": 644,
+                "id": 709,
                 "name": "resist",
                 "nameLocation": "4185:6:3",
                 "nodeType": "EnumValue",
                 "src": "4185:6:3"
               },
               {
-                "id": 645,
+                "id": 710,
                 "name": "pizza",
                 "nameLocation": "4202:5:3",
                 "nodeType": "EnumValue",
                 "src": "4202:5:3"
               },
               {
-                "id": 646,
+                "id": 711,
                 "name": "hola",
                 "nameLocation": "4218:4:3",
                 "nodeType": "EnumValue",
                 "src": "4218:4:3"
               },
               {
-                "id": 647,
+                "id": 712,
                 "name": "diamond",
                 "nameLocation": "4233:7:3",
                 "nodeType": "EnumValue",
                 "src": "4233:7:3"
               },
               {
-                "id": 648,
+                "id": 713,
                 "name": "deer",
                 "nameLocation": "4251:4:3",
                 "nodeType": "EnumValue",
                 "src": "4251:4:3"
               },
               {
-                "id": 649,
+                "id": 714,
                 "name": "cumbia",
                 "nameLocation": "4266:6:3",
                 "nodeType": "EnumValue",
                 "src": "4266:6:3"
               },
               {
-                "id": 650,
+                "id": 715,
                 "name": "bear",
                 "nameLocation": "4283:4:3",
                 "nodeType": "EnumValue",
                 "src": "4283:4:3"
               },
               {
-                "id": 651,
+                "id": 716,
                 "name": "bat",
                 "nameLocation": "4298:3:3",
                 "nodeType": "EnumValue",
@@ -1616,7 +1616,7 @@
             "src": "4115:193:3"
           }
         ],
-        "scope": 654,
+        "scope": 719,
         "src": "60:4251:3",
         "usedErrors": []
       }
@@ -1627,15 +1627,15 @@
     "absolutePath": "/C/Users/Root/Documents/my_ethereum/NFT-Avatars/truffle/contracts/libs/Attachments.sol",
     "exportedSymbols": {
       "Attachments": [
-        653
+        718
       ]
     },
-    "id": 654,
+    "id": 719,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 434,
+        "id": 499,
         "literals": [
           "solidity",
           "^",
@@ -1651,9 +1651,9 @@
         "contractDependencies": [],
         "contractKind": "library",
         "fullyImplemented": true,
-        "id": 653,
+        "id": 718,
         "linearizedBaseContracts": [
-          653
+          718
         ],
         "name": "Attachments",
         "nameLocation": "68:11:3",
@@ -1661,262 +1661,262 @@
         "nodes": [
           {
             "canonicalName": "Attachments.Top",
-            "id": 472,
+            "id": 537,
             "members": [
               {
-                "id": 435,
+                "id": 500,
                 "name": "longHair",
                 "nameLocation": "109:8:3",
                 "nodeType": "EnumValue",
                 "src": "109:8:3"
               },
               {
-                "id": 436,
+                "id": 501,
                 "name": "shortHair",
                 "nameLocation": "128:9:3",
                 "nodeType": "EnumValue",
                 "src": "128:9:3"
               },
               {
-                "id": 437,
+                "id": 502,
                 "name": "eyepatch",
                 "nameLocation": "148:8:3",
                 "nodeType": "EnumValue",
                 "src": "148:8:3"
               },
               {
-                "id": 438,
+                "id": 503,
                 "name": "hat",
                 "nameLocation": "167:3:3",
                 "nodeType": "EnumValue",
                 "src": "167:3:3"
               },
               {
-                "id": 439,
+                "id": 504,
                 "name": "hijab",
                 "nameLocation": "181:5:3",
                 "nodeType": "EnumValue",
                 "src": "181:5:3"
               },
               {
-                "id": 440,
+                "id": 505,
                 "name": "turban",
                 "nameLocation": "197:6:3",
                 "nodeType": "EnumValue",
                 "src": "197:6:3"
               },
               {
-                "id": 441,
+                "id": 506,
                 "name": "bigHair",
                 "nameLocation": "214:7:3",
                 "nodeType": "EnumValue",
                 "src": "214:7:3"
               },
               {
-                "id": 442,
+                "id": 507,
                 "name": "bob",
                 "nameLocation": "232:3:3",
                 "nodeType": "EnumValue",
                 "src": "232:3:3"
               },
               {
-                "id": 443,
+                "id": 508,
                 "name": "bun",
                 "nameLocation": "246:3:3",
                 "nodeType": "EnumValue",
                 "src": "246:3:3"
               },
               {
-                "id": 444,
+                "id": 509,
                 "name": "curly",
                 "nameLocation": "260:5:3",
                 "nodeType": "EnumValue",
                 "src": "260:5:3"
               },
               {
-                "id": 445,
+                "id": 510,
                 "name": "curvy",
                 "nameLocation": "276:5:3",
                 "nodeType": "EnumValue",
                 "src": "276:5:3"
               },
               {
-                "id": 446,
+                "id": 511,
                 "name": "dreads",
                 "nameLocation": "292:6:3",
                 "nodeType": "EnumValue",
                 "src": "292:6:3"
               },
               {
-                "id": 447,
+                "id": 512,
                 "name": "frida",
                 "nameLocation": "309:5:3",
                 "nodeType": "EnumValue",
                 "src": "309:5:3"
               },
               {
-                "id": 448,
+                "id": 513,
                 "name": "fro",
                 "nameLocation": "325:3:3",
                 "nodeType": "EnumValue",
                 "src": "325:3:3"
               },
               {
-                "id": 449,
+                "id": 514,
                 "name": "froAndBand",
                 "nameLocation": "339:10:3",
                 "nodeType": "EnumValue",
                 "src": "339:10:3"
               },
               {
-                "id": 450,
+                "id": 515,
                 "name": "miaWallace",
                 "nameLocation": "360:10:3",
                 "nodeType": "EnumValue",
                 "src": "360:10:3"
               },
               {
-                "id": 451,
+                "id": 516,
                 "name": "longButNotTooLong",
                 "nameLocation": "381:17:3",
                 "nodeType": "EnumValue",
                 "src": "381:17:3"
               },
               {
-                "id": 452,
+                "id": 517,
                 "name": "shavedSides",
                 "nameLocation": "409:11:3",
                 "nodeType": "EnumValue",
                 "src": "409:11:3"
               },
               {
-                "id": 453,
+                "id": 518,
                 "name": "straight01",
                 "nameLocation": "431:10:3",
                 "nodeType": "EnumValue",
                 "src": "431:10:3"
               },
               {
-                "id": 454,
+                "id": 519,
                 "name": "straight02",
                 "nameLocation": "452:10:3",
                 "nodeType": "EnumValue",
                 "src": "452:10:3"
               },
               {
-                "id": 455,
+                "id": 520,
                 "name": "straightAndStrand",
                 "nameLocation": "473:17:3",
                 "nodeType": "EnumValue",
                 "src": "473:17:3"
               },
               {
-                "id": 456,
+                "id": 521,
                 "name": "dreads01",
                 "nameLocation": "501:8:3",
                 "nodeType": "EnumValue",
                 "src": "501:8:3"
               },
               {
-                "id": 457,
+                "id": 522,
                 "name": "dreads02",
                 "nameLocation": "520:8:3",
                 "nodeType": "EnumValue",
                 "src": "520:8:3"
               },
               {
-                "id": 458,
+                "id": 523,
                 "name": "frizzle",
                 "nameLocation": "539:7:3",
                 "nodeType": "EnumValue",
                 "src": "539:7:3"
               },
               {
-                "id": 459,
+                "id": 524,
                 "name": "shaggy",
                 "nameLocation": "557:6:3",
                 "nodeType": "EnumValue",
                 "src": "557:6:3"
               },
               {
-                "id": 460,
+                "id": 525,
                 "name": "shaggyMullet",
                 "nameLocation": "574:12:3",
                 "nodeType": "EnumValue",
                 "src": "574:12:3"
               },
               {
-                "id": 461,
+                "id": 526,
                 "name": "shortCurly",
                 "nameLocation": "597:10:3",
                 "nodeType": "EnumValue",
                 "src": "597:10:3"
               },
               {
-                "id": 462,
+                "id": 527,
                 "name": "shortFlat",
                 "nameLocation": "618:9:3",
                 "nodeType": "EnumValue",
                 "src": "618:9:3"
               },
               {
-                "id": 463,
+                "id": 528,
                 "name": "shortRound",
                 "nameLocation": "638:10:3",
                 "nodeType": "EnumValue",
                 "src": "638:10:3"
               },
               {
-                "id": 464,
+                "id": 529,
                 "name": "shortWaved",
                 "nameLocation": "659:10:3",
                 "nodeType": "EnumValue",
                 "src": "659:10:3"
               },
               {
-                "id": 465,
+                "id": 530,
                 "name": "sides",
                 "nameLocation": "680:5:3",
                 "nodeType": "EnumValue",
                 "src": "680:5:3"
               },
               {
-                "id": 466,
+                "id": 531,
                 "name": "theCaesar",
                 "nameLocation": "696:9:3",
                 "nodeType": "EnumValue",
                 "src": "696:9:3"
               },
               {
-                "id": 467,
+                "id": 532,
                 "name": "theCaesarAndSidePart",
                 "nameLocation": "716:20:3",
                 "nodeType": "EnumValue",
                 "src": "716:20:3"
               },
               {
-                "id": 468,
+                "id": 533,
                 "name": "winterHat01",
                 "nameLocation": "747:11:3",
                 "nodeType": "EnumValue",
                 "src": "747:11:3"
               },
               {
-                "id": 469,
+                "id": 534,
                 "name": "winterHat02",
                 "nameLocation": "769:11:3",
                 "nodeType": "EnumValue",
                 "src": "769:11:3"
               },
               {
-                "id": 470,
+                "id": 535,
                 "name": "winterHat03",
                 "nameLocation": "791:11:3",
                 "nodeType": "EnumValue",
                 "src": "791:11:3"
               },
               {
-                "id": 471,
+                "id": 536,
                 "name": "winterHat04",
                 "nameLocation": "813:11:3",
                 "nodeType": "EnumValue",
@@ -1930,129 +1930,129 @@
           },
           {
             "canonicalName": "Attachments.HatColor",
-            "id": 491,
+            "id": 556,
             "members": [
               {
-                "id": 473,
+                "id": 538,
                 "name": "black",
                 "nameLocation": "864:5:3",
                 "nodeType": "EnumValue",
                 "src": "864:5:3"
               },
               {
-                "id": 474,
+                "id": 539,
                 "name": "blue",
                 "nameLocation": "880:4:3",
                 "nodeType": "EnumValue",
                 "src": "880:4:3"
               },
               {
-                "id": 475,
+                "id": 540,
                 "name": "blue01",
                 "nameLocation": "895:6:3",
                 "nodeType": "EnumValue",
                 "src": "895:6:3"
               },
               {
-                "id": 476,
+                "id": 541,
                 "name": "blue02",
                 "nameLocation": "912:6:3",
                 "nodeType": "EnumValue",
                 "src": "912:6:3"
               },
               {
-                "id": 477,
+                "id": 542,
                 "name": "blue03",
                 "nameLocation": "929:6:3",
                 "nodeType": "EnumValue",
                 "src": "929:6:3"
               },
               {
-                "id": 478,
+                "id": 543,
                 "name": "gray",
                 "nameLocation": "946:4:3",
                 "nodeType": "EnumValue",
                 "src": "946:4:3"
               },
               {
-                "id": 479,
+                "id": 544,
                 "name": "gray01",
                 "nameLocation": "961:6:3",
                 "nodeType": "EnumValue",
                 "src": "961:6:3"
               },
               {
-                "id": 480,
+                "id": 545,
                 "name": "gray02",
                 "nameLocation": "978:6:3",
                 "nodeType": "EnumValue",
                 "src": "978:6:3"
               },
               {
-                "id": 481,
+                "id": 546,
                 "name": "heather",
                 "nameLocation": "995:7:3",
                 "nodeType": "EnumValue",
                 "src": "995:7:3"
               },
               {
-                "id": 482,
+                "id": 547,
                 "name": "pastel",
                 "nameLocation": "1013:6:3",
                 "nodeType": "EnumValue",
                 "src": "1013:6:3"
               },
               {
-                "id": 483,
+                "id": 548,
                 "name": "pastelBlue",
                 "nameLocation": "1030:10:3",
                 "nodeType": "EnumValue",
                 "src": "1030:10:3"
               },
               {
-                "id": 484,
+                "id": 549,
                 "name": "pastelGreen",
                 "nameLocation": "1051:11:3",
                 "nodeType": "EnumValue",
                 "src": "1051:11:3"
               },
               {
-                "id": 485,
+                "id": 550,
                 "name": "pastelOrange",
                 "nameLocation": "1073:12:3",
                 "nodeType": "EnumValue",
                 "src": "1073:12:3"
               },
               {
-                "id": 486,
+                "id": 551,
                 "name": "pastelRed",
                 "nameLocation": "1096:9:3",
                 "nodeType": "EnumValue",
                 "src": "1096:9:3"
               },
               {
-                "id": 487,
+                "id": 552,
                 "name": "pastelYellow",
                 "nameLocation": "1116:12:3",
                 "nodeType": "EnumValue",
                 "src": "1116:12:3"
               },
               {
-                "id": 488,
+                "id": 553,
                 "name": "pink",
                 "nameLocation": "1139:4:3",
                 "nodeType": "EnumValue",
                 "src": "1139:4:3"
               },
               {
-                "id": 489,
+                "id": 554,
                 "name": "red",
                 "nameLocation": "1154:3:3",
                 "nodeType": "EnumValue",
                 "src": "1154:3:3"
               },
               {
-                "id": 490,
+                "id": 555,
                 "name": "white",
                 "nameLocation": "1168:5:3",
                 "nodeType": "EnumValue",
@@ -2066,87 +2066,87 @@
           },
           {
             "canonicalName": "Attachments.HairColor",
-            "id": 504,
+            "id": 569,
             "members": [
               {
-                "id": 492,
+                "id": 557,
                 "name": "auburn",
                 "nameLocation": "1214:6:3",
                 "nodeType": "EnumValue",
                 "src": "1214:6:3"
               },
               {
-                "id": 493,
+                "id": 558,
                 "name": "black",
                 "nameLocation": "1231:5:3",
                 "nodeType": "EnumValue",
                 "src": "1231:5:3"
               },
               {
-                "id": 494,
+                "id": 559,
                 "name": "blonde",
                 "nameLocation": "1247:6:3",
                 "nodeType": "EnumValue",
                 "src": "1247:6:3"
               },
               {
-                "id": 495,
+                "id": 560,
                 "name": "blondeGolden",
                 "nameLocation": "1264:12:3",
                 "nodeType": "EnumValue",
                 "src": "1264:12:3"
               },
               {
-                "id": 496,
+                "id": 561,
                 "name": "brown",
                 "nameLocation": "1287:5:3",
                 "nodeType": "EnumValue",
                 "src": "1287:5:3"
               },
               {
-                "id": 497,
+                "id": 562,
                 "name": "brownDark",
                 "nameLocation": "1303:9:3",
                 "nodeType": "EnumValue",
                 "src": "1303:9:3"
               },
               {
-                "id": 498,
+                "id": 563,
                 "name": "pastel",
                 "nameLocation": "1323:6:3",
                 "nodeType": "EnumValue",
                 "src": "1323:6:3"
               },
               {
-                "id": 499,
+                "id": 564,
                 "name": "pastelPink",
                 "nameLocation": "1340:10:3",
                 "nodeType": "EnumValue",
                 "src": "1340:10:3"
               },
               {
-                "id": 500,
+                "id": 565,
                 "name": "platinum",
                 "nameLocation": "1361:8:3",
                 "nodeType": "EnumValue",
                 "src": "1361:8:3"
               },
               {
-                "id": 501,
+                "id": 566,
                 "name": "red",
                 "nameLocation": "1380:3:3",
                 "nodeType": "EnumValue",
                 "src": "1380:3:3"
               },
               {
-                "id": 502,
+                "id": 567,
                 "name": "gray",
                 "nameLocation": "1394:4:3",
                 "nodeType": "EnumValue",
                 "src": "1394:4:3"
               },
               {
-                "id": 503,
+                "id": 568,
                 "name": "silverGray",
                 "nameLocation": "1409:10:3",
                 "nodeType": "EnumValue",
@@ -2160,45 +2160,45 @@
           },
           {
             "canonicalName": "Attachments.Accessories",
-            "id": 511,
+            "id": 576,
             "members": [
               {
-                "id": 505,
+                "id": 570,
                 "name": "kurt",
                 "nameLocation": "1462:4:3",
                 "nodeType": "EnumValue",
                 "src": "1462:4:3"
               },
               {
-                "id": 506,
+                "id": 571,
                 "name": "prescription01",
                 "nameLocation": "1477:14:3",
                 "nodeType": "EnumValue",
                 "src": "1477:14:3"
               },
               {
-                "id": 507,
+                "id": 572,
                 "name": "prescription02",
                 "nameLocation": "1502:14:3",
                 "nodeType": "EnumValue",
                 "src": "1502:14:3"
               },
               {
-                "id": 508,
+                "id": 573,
                 "name": "round",
                 "nameLocation": "1527:5:3",
                 "nodeType": "EnumValue",
                 "src": "1527:5:3"
               },
               {
-                "id": 509,
+                "id": 574,
                 "name": "sunglasses",
                 "nameLocation": "1543:10:3",
                 "nodeType": "EnumValue",
                 "src": "1543:10:3"
               },
               {
-                "id": 510,
+                "id": 575,
                 "name": "wayfarers",
                 "nameLocation": "1564:9:3",
                 "nodeType": "EnumValue",
@@ -2212,129 +2212,129 @@
           },
           {
             "canonicalName": "Attachments.AccessoriesColor",
-            "id": 530,
+            "id": 595,
             "members": [
               {
-                "id": 512,
+                "id": 577,
                 "name": "black",
                 "nameLocation": "1621:5:3",
                 "nodeType": "EnumValue",
                 "src": "1621:5:3"
               },
               {
-                "id": 513,
+                "id": 578,
                 "name": "blue",
                 "nameLocation": "1637:4:3",
                 "nodeType": "EnumValue",
                 "src": "1637:4:3"
               },
               {
-                "id": 514,
+                "id": 579,
                 "name": "blue01",
                 "nameLocation": "1652:6:3",
                 "nodeType": "EnumValue",
                 "src": "1652:6:3"
               },
               {
-                "id": 515,
+                "id": 580,
                 "name": "blue02",
                 "nameLocation": "1669:6:3",
                 "nodeType": "EnumValue",
                 "src": "1669:6:3"
               },
               {
-                "id": 516,
+                "id": 581,
                 "name": "blue03",
                 "nameLocation": "1686:6:3",
                 "nodeType": "EnumValue",
                 "src": "1686:6:3"
               },
               {
-                "id": 517,
+                "id": 582,
                 "name": "gray",
                 "nameLocation": "1703:4:3",
                 "nodeType": "EnumValue",
                 "src": "1703:4:3"
               },
               {
-                "id": 518,
+                "id": 583,
                 "name": "gray01",
                 "nameLocation": "1718:6:3",
                 "nodeType": "EnumValue",
                 "src": "1718:6:3"
               },
               {
-                "id": 519,
+                "id": 584,
                 "name": "gray02",
                 "nameLocation": "1735:6:3",
                 "nodeType": "EnumValue",
                 "src": "1735:6:3"
               },
               {
-                "id": 520,
+                "id": 585,
                 "name": "heather",
                 "nameLocation": "1752:7:3",
                 "nodeType": "EnumValue",
                 "src": "1752:7:3"
               },
               {
-                "id": 521,
+                "id": 586,
                 "name": "pastel",
                 "nameLocation": "1770:6:3",
                 "nodeType": "EnumValue",
                 "src": "1770:6:3"
               },
               {
-                "id": 522,
+                "id": 587,
                 "name": "pastelBlue",
                 "nameLocation": "1787:10:3",
                 "nodeType": "EnumValue",
                 "src": "1787:10:3"
               },
               {
-                "id": 523,
+                "id": 588,
                 "name": "pastelGreen",
                 "nameLocation": "1808:11:3",
                 "nodeType": "EnumValue",
                 "src": "1808:11:3"
               },
               {
-                "id": 524,
+                "id": 589,
                 "name": "pastelOrange",
                 "nameLocation": "1830:12:3",
                 "nodeType": "EnumValue",
                 "src": "1830:12:3"
               },
               {
-                "id": 525,
+                "id": 590,
                 "name": "pastelRed",
                 "nameLocation": "1853:9:3",
                 "nodeType": "EnumValue",
                 "src": "1853:9:3"
               },
               {
-                "id": 526,
+                "id": 591,
                 "name": "pastelYellow",
                 "nameLocation": "1873:12:3",
                 "nodeType": "EnumValue",
                 "src": "1873:12:3"
               },
               {
-                "id": 527,
+                "id": 592,
                 "name": "pink",
                 "nameLocation": "1896:4:3",
                 "nodeType": "EnumValue",
                 "src": "1896:4:3"
               },
               {
-                "id": 528,
+                "id": 593,
                 "name": "red",
                 "nameLocation": "1911:3:3",
                 "nodeType": "EnumValue",
                 "src": "1911:3:3"
               },
               {
-                "id": 529,
+                "id": 594,
                 "name": "white",
                 "nameLocation": "1925:5:3",
                 "nodeType": "EnumValue",
@@ -2348,73 +2348,73 @@
           },
           {
             "canonicalName": "Attachments.FacialHair",
-            "id": 541,
+            "id": 606,
             "members": [
               {
-                "id": 531,
+                "id": 596,
                 "name": "medium",
                 "nameLocation": "1972:6:3",
                 "nodeType": "EnumValue",
                 "src": "1972:6:3"
               },
               {
-                "id": 532,
+                "id": 597,
                 "name": "beardMedium",
                 "nameLocation": "1989:11:3",
                 "nodeType": "EnumValue",
                 "src": "1989:11:3"
               },
               {
-                "id": 533,
+                "id": 598,
                 "name": "light",
                 "nameLocation": "2011:5:3",
                 "nodeType": "EnumValue",
                 "src": "2011:5:3"
               },
               {
-                "id": 534,
+                "id": 599,
                 "name": "beardLight",
                 "nameLocation": "2027:10:3",
                 "nodeType": "EnumValue",
                 "src": "2027:10:3"
               },
               {
-                "id": 535,
+                "id": 600,
                 "name": "majestic",
                 "nameLocation": "2048:8:3",
                 "nodeType": "EnumValue",
                 "src": "2048:8:3"
               },
               {
-                "id": 536,
+                "id": 601,
                 "name": "beardMajestic",
                 "nameLocation": "2067:13:3",
                 "nodeType": "EnumValue",
                 "src": "2067:13:3"
               },
               {
-                "id": 537,
+                "id": 602,
                 "name": "fancy",
                 "nameLocation": "2091:5:3",
                 "nodeType": "EnumValue",
                 "src": "2091:5:3"
               },
               {
-                "id": 538,
+                "id": 603,
                 "name": "moustaceFancy",
                 "nameLocation": "2107:13:3",
                 "nodeType": "EnumValue",
                 "src": "2107:13:3"
               },
               {
-                "id": 539,
+                "id": 604,
                 "name": "magnum",
                 "nameLocation": "2131:6:3",
                 "nodeType": "EnumValue",
                 "src": "2131:6:3"
               },
               {
-                "id": 540,
+                "id": 605,
                 "name": "moustacheMagnum",
                 "nameLocation": "2148:15:3",
                 "nodeType": "EnumValue",
@@ -2428,87 +2428,87 @@
           },
           {
             "canonicalName": "Attachments.FacialHairColor",
-            "id": 554,
+            "id": 619,
             "members": [
               {
-                "id": 542,
+                "id": 607,
                 "name": "auburn",
                 "nameLocation": "2210:6:3",
                 "nodeType": "EnumValue",
                 "src": "2210:6:3"
               },
               {
-                "id": 543,
+                "id": 608,
                 "name": "black",
                 "nameLocation": "2227:5:3",
                 "nodeType": "EnumValue",
                 "src": "2227:5:3"
               },
               {
-                "id": 544,
+                "id": 609,
                 "name": "blonde",
                 "nameLocation": "2243:6:3",
                 "nodeType": "EnumValue",
                 "src": "2243:6:3"
               },
               {
-                "id": 545,
+                "id": 610,
                 "name": "blondeGolden",
                 "nameLocation": "2260:12:3",
                 "nodeType": "EnumValue",
                 "src": "2260:12:3"
               },
               {
-                "id": 546,
+                "id": 611,
                 "name": "brown",
                 "nameLocation": "2283:5:3",
                 "nodeType": "EnumValue",
                 "src": "2283:5:3"
               },
               {
-                "id": 547,
+                "id": 612,
                 "name": "brownDark",
                 "nameLocation": "2299:9:3",
                 "nodeType": "EnumValue",
                 "src": "2299:9:3"
               },
               {
-                "id": 548,
+                "id": 613,
                 "name": "pastel",
                 "nameLocation": "2319:6:3",
                 "nodeType": "EnumValue",
                 "src": "2319:6:3"
               },
               {
-                "id": 549,
+                "id": 614,
                 "name": "pastelPink",
                 "nameLocation": "2336:10:3",
                 "nodeType": "EnumValue",
                 "src": "2336:10:3"
               },
               {
-                "id": 550,
+                "id": 615,
                 "name": "platinum",
                 "nameLocation": "2357:8:3",
                 "nodeType": "EnumValue",
                 "src": "2357:8:3"
               },
               {
-                "id": 551,
+                "id": 616,
                 "name": "red",
                 "nameLocation": "2376:3:3",
                 "nodeType": "EnumValue",
                 "src": "2376:3:3"
               },
               {
-                "id": 552,
+                "id": 617,
                 "name": "gray",
                 "nameLocation": "2390:4:3",
                 "nodeType": "EnumValue",
                 "src": "2390:4:3"
               },
               {
-                "id": 553,
+                "id": 618,
                 "name": "silverGray",
                 "nameLocation": "2405:10:3",
                 "nodeType": "EnumValue",
@@ -2522,87 +2522,87 @@
           },
           {
             "canonicalName": "Attachments.Clothes",
-            "id": 567,
+            "id": 632,
             "members": [
               {
-                "id": 555,
+                "id": 620,
                 "name": "blazer",
                 "nameLocation": "2454:6:3",
                 "nodeType": "EnumValue",
                 "src": "2454:6:3"
               },
               {
-                "id": 556,
+                "id": 621,
                 "name": "blazerAndShirt",
                 "nameLocation": "2471:14:3",
                 "nodeType": "EnumValue",
                 "src": "2471:14:3"
               },
               {
-                "id": 557,
+                "id": 622,
                 "name": "blazerAndSweater",
                 "nameLocation": "2496:16:3",
                 "nodeType": "EnumValue",
                 "src": "2496:16:3"
               },
               {
-                "id": 558,
+                "id": 623,
                 "name": "sweater",
                 "nameLocation": "2523:7:3",
                 "nodeType": "EnumValue",
                 "src": "2523:7:3"
               },
               {
-                "id": 559,
+                "id": 624,
                 "name": "collarAndSweater",
                 "nameLocation": "2541:16:3",
                 "nodeType": "EnumValue",
                 "src": "2541:16:3"
               },
               {
-                "id": 560,
+                "id": 625,
                 "name": "shirt",
                 "nameLocation": "2568:5:3",
                 "nodeType": "EnumValue",
                 "src": "2568:5:3"
               },
               {
-                "id": 561,
+                "id": 626,
                 "name": "graphicShirt",
                 "nameLocation": "2584:12:3",
                 "nodeType": "EnumValue",
                 "src": "2584:12:3"
               },
               {
-                "id": 562,
+                "id": 627,
                 "name": "shirtCrewNeck",
                 "nameLocation": "2607:13:3",
                 "nodeType": "EnumValue",
                 "src": "2607:13:3"
               },
               {
-                "id": 563,
+                "id": 628,
                 "name": "shirtScoopNeck",
                 "nameLocation": "2631:14:3",
                 "nodeType": "EnumValue",
                 "src": "2631:14:3"
               },
               {
-                "id": 564,
+                "id": 629,
                 "name": "shirtVNeck",
                 "nameLocation": "2656:10:3",
                 "nodeType": "EnumValue",
                 "src": "2656:10:3"
               },
               {
-                "id": 565,
+                "id": 630,
                 "name": "hoodie",
                 "nameLocation": "2677:6:3",
                 "nodeType": "EnumValue",
                 "src": "2677:6:3"
               },
               {
-                "id": 566,
+                "id": 631,
                 "name": "overall",
                 "nameLocation": "2694:7:3",
                 "nodeType": "EnumValue",
@@ -2616,129 +2616,129 @@
           },
           {
             "canonicalName": "Attachments.ClothesColor",
-            "id": 586,
+            "id": 651,
             "members": [
               {
-                "id": 568,
+                "id": 633,
                 "name": "black",
                 "nameLocation": "2745:5:3",
                 "nodeType": "EnumValue",
                 "src": "2745:5:3"
               },
               {
-                "id": 569,
+                "id": 634,
                 "name": "blue",
                 "nameLocation": "2761:4:3",
                 "nodeType": "EnumValue",
                 "src": "2761:4:3"
               },
               {
-                "id": 570,
+                "id": 635,
                 "name": "blue01",
                 "nameLocation": "2776:6:3",
                 "nodeType": "EnumValue",
                 "src": "2776:6:3"
               },
               {
-                "id": 571,
+                "id": 636,
                 "name": "blue02",
                 "nameLocation": "2793:6:3",
                 "nodeType": "EnumValue",
                 "src": "2793:6:3"
               },
               {
-                "id": 572,
+                "id": 637,
                 "name": "blue03",
                 "nameLocation": "2810:6:3",
                 "nodeType": "EnumValue",
                 "src": "2810:6:3"
               },
               {
-                "id": 573,
+                "id": 638,
                 "name": "gray",
                 "nameLocation": "2827:4:3",
                 "nodeType": "EnumValue",
                 "src": "2827:4:3"
               },
               {
-                "id": 574,
+                "id": 639,
                 "name": "gray01",
                 "nameLocation": "2842:6:3",
                 "nodeType": "EnumValue",
                 "src": "2842:6:3"
               },
               {
-                "id": 575,
+                "id": 640,
                 "name": "gray02",
                 "nameLocation": "2859:6:3",
                 "nodeType": "EnumValue",
                 "src": "2859:6:3"
               },
               {
-                "id": 576,
+                "id": 641,
                 "name": "heather",
                 "nameLocation": "2876:7:3",
                 "nodeType": "EnumValue",
                 "src": "2876:7:3"
               },
               {
-                "id": 577,
+                "id": 642,
                 "name": "pastel",
                 "nameLocation": "2894:6:3",
                 "nodeType": "EnumValue",
                 "src": "2894:6:3"
               },
               {
-                "id": 578,
+                "id": 643,
                 "name": "pastelBlue",
                 "nameLocation": "2911:10:3",
                 "nodeType": "EnumValue",
                 "src": "2911:10:3"
               },
               {
-                "id": 579,
+                "id": 644,
                 "name": "pastelGreen",
                 "nameLocation": "2932:11:3",
                 "nodeType": "EnumValue",
                 "src": "2932:11:3"
               },
               {
-                "id": 580,
+                "id": 645,
                 "name": "pastelOrange",
                 "nameLocation": "2954:12:3",
                 "nodeType": "EnumValue",
                 "src": "2954:12:3"
               },
               {
-                "id": 581,
+                "id": 646,
                 "name": "pastelRed",
                 "nameLocation": "2977:9:3",
                 "nodeType": "EnumValue",
                 "src": "2977:9:3"
               },
               {
-                "id": 582,
+                "id": 647,
                 "name": "pastelYellow",
                 "nameLocation": "2997:12:3",
                 "nodeType": "EnumValue",
                 "src": "2997:12:3"
               },
               {
-                "id": 583,
+                "id": 648,
                 "name": "pink",
                 "nameLocation": "3020:4:3",
                 "nodeType": "EnumValue",
                 "src": "3020:4:3"
               },
               {
-                "id": 584,
+                "id": 649,
                 "name": "red",
                 "nameLocation": "3035:3:3",
                 "nodeType": "EnumValue",
                 "src": "3035:3:3"
               },
               {
-                "id": 585,
+                "id": 650,
                 "name": "white",
                 "nameLocation": "3049:5:3",
                 "nodeType": "EnumValue",
@@ -2752,101 +2752,101 @@
           },
           {
             "canonicalName": "Attachments.Eyes",
-            "id": 601,
+            "id": 666,
             "members": [
               {
-                "id": 587,
+                "id": 652,
                 "name": "close",
                 "nameLocation": "3090:5:3",
                 "nodeType": "EnumValue",
                 "src": "3090:5:3"
               },
               {
-                "id": 588,
+                "id": 653,
                 "name": "closed",
                 "nameLocation": "3106:6:3",
                 "nodeType": "EnumValue",
                 "src": "3106:6:3"
               },
               {
-                "id": 589,
+                "id": 654,
                 "name": "cry",
                 "nameLocation": "3123:3:3",
                 "nodeType": "EnumValue",
                 "src": "3123:3:3"
               },
               {
-                "id": 590,
+                "id": 655,
                 "name": "dizzy",
                 "nameLocation": "3137:5:3",
                 "nodeType": "EnumValue",
                 "src": "3137:5:3"
               },
               {
-                "id": 591,
+                "id": 656,
                 "name": "xDizzy",
                 "nameLocation": "3153:6:3",
                 "nodeType": "EnumValue",
                 "src": "3153:6:3"
               },
               {
-                "id": 592,
+                "id": 657,
                 "name": "roll",
                 "nameLocation": "3170:4:3",
                 "nodeType": "EnumValue",
                 "src": "3170:4:3"
               },
               {
-                "id": 593,
+                "id": 658,
                 "name": "eyeRoll",
                 "nameLocation": "3185:7:3",
                 "nodeType": "EnumValue",
                 "src": "3185:7:3"
               },
               {
-                "id": 594,
+                "id": 659,
                 "name": "happy",
                 "nameLocation": "3203:5:3",
                 "nodeType": "EnumValue",
                 "src": "3203:5:3"
               },
               {
-                "id": 595,
+                "id": 660,
                 "name": "hearts",
                 "nameLocation": "3219:6:3",
                 "nodeType": "EnumValue",
                 "src": "3219:6:3"
               },
               {
-                "id": 596,
+                "id": 661,
                 "name": "side",
                 "nameLocation": "3236:4:3",
                 "nodeType": "EnumValue",
                 "src": "3236:4:3"
               },
               {
-                "id": 597,
+                "id": 662,
                 "name": "squint",
                 "nameLocation": "3251:6:3",
                 "nodeType": "EnumValue",
                 "src": "3251:6:3"
               },
               {
-                "id": 598,
+                "id": 663,
                 "name": "surprised",
                 "nameLocation": "3268:9:3",
                 "nodeType": "EnumValue",
                 "src": "3268:9:3"
               },
               {
-                "id": 599,
+                "id": 664,
                 "name": "wink",
                 "nameLocation": "3288:4:3",
                 "nodeType": "EnumValue",
                 "src": "3288:4:3"
               },
               {
-                "id": 600,
+                "id": 665,
                 "name": "winkWacky",
                 "nameLocation": "3303:9:3",
                 "nodeType": "EnumValue",
@@ -2860,129 +2860,129 @@
           },
           {
             "canonicalName": "Attachments.Eyebrow",
-            "id": 620,
+            "id": 685,
             "members": [
               {
-                "id": 602,
+                "id": 667,
                 "name": "angry",
                 "nameLocation": "3351:5:3",
                 "nodeType": "EnumValue",
                 "src": "3351:5:3"
               },
               {
-                "id": 603,
+                "id": 668,
                 "name": "angryNatural",
                 "nameLocation": "3367:12:3",
                 "nodeType": "EnumValue",
                 "src": "3367:12:3"
               },
               {
-                "id": 604,
+                "id": 669,
                 "name": "defaultNatural",
                 "nameLocation": "3390:14:3",
                 "nodeType": "EnumValue",
                 "src": "3390:14:3"
               },
               {
-                "id": 605,
+                "id": 670,
                 "name": "flat",
                 "nameLocation": "3415:4:3",
                 "nodeType": "EnumValue",
                 "src": "3415:4:3"
               },
               {
-                "id": 606,
+                "id": 671,
                 "name": "flatNatural",
                 "nameLocation": "3430:11:3",
                 "nodeType": "EnumValue",
                 "src": "3430:11:3"
               },
               {
-                "id": 607,
+                "id": 672,
                 "name": "raised",
                 "nameLocation": "3452:6:3",
                 "nodeType": "EnumValue",
                 "src": "3452:6:3"
               },
               {
-                "id": 608,
+                "id": 673,
                 "name": "raisedExcited",
                 "nameLocation": "3469:13:3",
                 "nodeType": "EnumValue",
                 "src": "3469:13:3"
               },
               {
-                "id": 609,
+                "id": 674,
                 "name": "raisedExcitedNatural",
                 "nameLocation": "3493:20:3",
                 "nodeType": "EnumValue",
                 "src": "3493:20:3"
               },
               {
-                "id": 610,
+                "id": 675,
                 "name": "sad",
                 "nameLocation": "3524:3:3",
                 "nodeType": "EnumValue",
                 "src": "3524:3:3"
               },
               {
-                "id": 611,
+                "id": 676,
                 "name": "sadConcerned",
                 "nameLocation": "3538:12:3",
                 "nodeType": "EnumValue",
                 "src": "3538:12:3"
               },
               {
-                "id": 612,
+                "id": 677,
                 "name": "sadConcernedNatural",
                 "nameLocation": "3561:19:3",
                 "nodeType": "EnumValue",
                 "src": "3561:19:3"
               },
               {
-                "id": 613,
+                "id": 678,
                 "name": "unibrow",
                 "nameLocation": "3591:7:3",
                 "nodeType": "EnumValue",
                 "src": "3591:7:3"
               },
               {
-                "id": 614,
+                "id": 679,
                 "name": "unibrowNatural",
                 "nameLocation": "3609:14:3",
                 "nodeType": "EnumValue",
                 "src": "3609:14:3"
               },
               {
-                "id": 615,
+                "id": 680,
                 "name": "up",
                 "nameLocation": "3634:2:3",
                 "nodeType": "EnumValue",
                 "src": "3634:2:3"
               },
               {
-                "id": 616,
+                "id": 681,
                 "name": "upDown",
                 "nameLocation": "3647:6:3",
                 "nodeType": "EnumValue",
                 "src": "3647:6:3"
               },
               {
-                "id": 617,
+                "id": 682,
                 "name": "upDownNatural",
                 "nameLocation": "3664:13:3",
                 "nodeType": "EnumValue",
                 "src": "3664:13:3"
               },
               {
-                "id": 618,
+                "id": 683,
                 "name": "frown",
                 "nameLocation": "3688:5:3",
                 "nodeType": "EnumValue",
                 "src": "3688:5:3"
               },
               {
-                "id": 619,
+                "id": 684,
                 "name": "frownNatural",
                 "nameLocation": "3704:12:3",
                 "nodeType": "EnumValue",
@@ -2996,87 +2996,87 @@
           },
           {
             "canonicalName": "Attachments.Mouth",
-            "id": 633,
+            "id": 698,
             "members": [
               {
-                "id": 621,
+                "id": 686,
                 "name": "concerned",
                 "nameLocation": "3753:9:3",
                 "nodeType": "EnumValue",
                 "src": "3753:9:3"
               },
               {
-                "id": 622,
+                "id": 687,
                 "name": "disbelief",
                 "nameLocation": "3773:9:3",
                 "nodeType": "EnumValue",
                 "src": "3773:9:3"
               },
               {
-                "id": 623,
+                "id": 688,
                 "name": "eating",
                 "nameLocation": "3793:6:3",
                 "nodeType": "EnumValue",
                 "src": "3793:6:3"
               },
               {
-                "id": 624,
+                "id": 689,
                 "name": "grimace",
                 "nameLocation": "3810:7:3",
                 "nodeType": "EnumValue",
                 "src": "3810:7:3"
               },
               {
-                "id": 625,
+                "id": 690,
                 "name": "sad",
                 "nameLocation": "3828:3:3",
                 "nodeType": "EnumValue",
                 "src": "3828:3:3"
               },
               {
-                "id": 626,
+                "id": 691,
                 "name": "scream",
                 "nameLocation": "3842:6:3",
                 "nodeType": "EnumValue",
                 "src": "3842:6:3"
               },
               {
-                "id": 627,
+                "id": 692,
                 "name": "screamOpen",
                 "nameLocation": "3859:10:3",
                 "nodeType": "EnumValue",
                 "src": "3859:10:3"
               },
               {
-                "id": 628,
+                "id": 693,
                 "name": "serious",
                 "nameLocation": "3880:7:3",
                 "nodeType": "EnumValue",
                 "src": "3880:7:3"
               },
               {
-                "id": 629,
+                "id": 694,
                 "name": "smile",
                 "nameLocation": "3898:5:3",
                 "nodeType": "EnumValue",
                 "src": "3898:5:3"
               },
               {
-                "id": 630,
+                "id": 695,
                 "name": "tongue",
                 "nameLocation": "3914:6:3",
                 "nodeType": "EnumValue",
                 "src": "3914:6:3"
               },
               {
-                "id": 631,
+                "id": 696,
                 "name": "twinkle",
                 "nameLocation": "3931:7:3",
                 "nodeType": "EnumValue",
                 "src": "3931:7:3"
               },
               {
-                "id": 632,
+                "id": 697,
                 "name": "vomit",
                 "nameLocation": "3949:5:3",
                 "nodeType": "EnumValue",
@@ -3090,52 +3090,52 @@
           },
           {
             "canonicalName": "Attachments.Skin",
-            "id": 641,
+            "id": 706,
             "members": [
               {
-                "id": 634,
+                "id": 699,
                 "name": "tanned",
                 "nameLocation": "3990:6:3",
                 "nodeType": "EnumValue",
                 "src": "3990:6:3"
               },
               {
-                "id": 635,
+                "id": 700,
                 "name": "yellow",
                 "nameLocation": "4007:6:3",
                 "nodeType": "EnumValue",
                 "src": "4007:6:3"
               },
               {
-                "id": 636,
+                "id": 701,
                 "name": "pale",
                 "nameLocation": "4025:4:3",
                 "nodeType": "EnumValue",
                 "src": "4025:4:3"
               },
               {
-                "id": 637,
+                "id": 702,
                 "name": "light",
                 "nameLocation": "4041:5:3",
                 "nodeType": "EnumValue",
                 "src": "4041:5:3"
               },
               {
-                "id": 638,
+                "id": 703,
                 "name": "brown",
                 "nameLocation": "4057:5:3",
                 "nodeType": "EnumValue",
                 "src": "4057:5:3"
               },
               {
-                "id": 639,
+                "id": 704,
                 "name": "darkBrown",
                 "nameLocation": "4074:9:3",
                 "nodeType": "EnumValue",
                 "src": "4074:9:3"
               },
               {
-                "id": 640,
+                "id": 705,
                 "name": "black",
                 "nameLocation": "4095:5:3",
                 "nodeType": "EnumValue",
@@ -3149,73 +3149,73 @@
           },
           {
             "canonicalName": "Attachments.ClotheGraphics",
-            "id": 652,
+            "id": 717,
             "members": [
               {
-                "id": 642,
+                "id": 707,
                 "name": "skullOutline",
                 "nameLocation": "4146:12:3",
                 "nodeType": "EnumValue",
                 "src": "4146:12:3"
               },
               {
-                "id": 643,
+                "id": 708,
                 "name": "skull",
                 "nameLocation": "4169:5:3",
                 "nodeType": "EnumValue",
                 "src": "4169:5:3"
               },
               {
-                "id": 644,
+                "id": 709,
                 "name": "resist",
                 "nameLocation": "4185:6:3",
                 "nodeType": "EnumValue",
                 "src": "4185:6:3"
               },
               {
-                "id": 645,
+                "id": 710,
                 "name": "pizza",
                 "nameLocation": "4202:5:3",
                 "nodeType": "EnumValue",
                 "src": "4202:5:3"
               },
               {
-                "id": 646,
+                "id": 711,
                 "name": "hola",
                 "nameLocation": "4218:4:3",
                 "nodeType": "EnumValue",
                 "src": "4218:4:3"
               },
               {
-                "id": 647,
+                "id": 712,
                 "name": "diamond",
                 "nameLocation": "4233:7:3",
                 "nodeType": "EnumValue",
                 "src": "4233:7:3"
               },
               {
-                "id": 648,
+                "id": 713,
                 "name": "deer",
                 "nameLocation": "4251:4:3",
                 "nodeType": "EnumValue",
                 "src": "4251:4:3"
               },
               {
-                "id": 649,
+                "id": 714,
                 "name": "cumbia",
                 "nameLocation": "4266:6:3",
                 "nodeType": "EnumValue",
                 "src": "4266:6:3"
               },
               {
-                "id": 650,
+                "id": 715,
                 "name": "bear",
                 "nameLocation": "4283:4:3",
                 "nodeType": "EnumValue",
                 "src": "4283:4:3"
               },
               {
-                "id": 651,
+                "id": 716,
                 "name": "bat",
                 "nameLocation": "4298:3:3",
                 "nodeType": "EnumValue",
@@ -3228,7 +3228,7 @@
             "src": "4115:193:3"
           }
         ],
-        "scope": 654,
+        "scope": 719,
         "src": "60:4251:3",
         "usedErrors": []
       }
@@ -3241,7 +3241,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-05-17T16:59:43.158Z",
+  "updatedAt": "2021-05-23T15:23:11.157Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

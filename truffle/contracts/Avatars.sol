@@ -2,15 +2,13 @@
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
-import "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 // Chainlink random number haven't implemented because of some limitations.
-contract Avatars is ERC1155, IERC1155Receiver {
-    uint256 public totalTokens = 0;
-    bytes32 internal keyHash;
-    uint256 internal fee;
+contract Avatars is ERC1155, Ownable {
     uint256 public avatarCreationFee;
     uint256 public attachmentCreationFee;
+    mapping(address => mapping(uint => uint)) public attachmentInUse; // owner => tokenId => no. of attachment attached to avatars
 
     string[] public attachments = [
         "accessories", 
@@ -31,82 +29,99 @@ contract Avatars is ERC1155, IERC1155Receiver {
 
     uint[] public totalAttachments = [6, 18, 10, 12, 18, 18, 14, 10, 12, 12, 18, 12, 7, 37];
 
+    uint public TRANSFORMIUM = 0;
+    uint256 public totalTokens = 1;
+
     mapping(bytes32 => uint) public requestToToken; //request ID to token ID
     mapping(bytes32 => address) public requestToOwner; //request ID to token ID
     mapping(string => uint) public attachmentStartId;
 
-    event AvatarCreated(address indexed owner, uint avatarId);
+    // event AvatarCreated(address indexed owner, uint avatarId);
     event AttachmentAdded(address indexed updater, uint avatarId, string attachmentName, uint attachmentId);
     event AttachmentRemoved(address indexed updater, uint avatarId, string attachmentName, uint attachmentId);
 
-    constructor() 
+    constructor(uint _avatarCreationFee, uint _attachmentCreationFee) 
     ERC1155("") {
+        avatarCreationFee = _avatarCreationFee;
+        attachmentCreationFee = _attachmentCreationFee;
         for(uint i; i < attachments.length; i++){
             string memory attachmentName = attachments[i];
             attachmentStartId[attachmentName] = totalTokens;
             totalTokens += totalAttachments[i];
         }
+        _mint(_msgSender(), TRANSFORMIUM, 10**12, "");
     }
 
-    function createAvatar() public {
+    function setAvatarCreationFee(uint fee) public onlyOwner {
+        avatarCreationFee = fee;
+    }
+
+    function setAttachmentCreationFee(uint fee) public onlyOwner {
+        attachmentCreationFee = fee;
+    }
+
+    function createAvatar() external {
         uint tokenId = totalTokens;
+        _burn(_msgSender(), TRANSFORMIUM, avatarCreationFee);
         _mint(_msgSender(), tokenId, 1, "");
-        emit AvatarCreated(_msgSender(), tokenId);
+        // emit AvatarCreated(_msgSender(), tokenId);
         totalTokens++;
     }
 
-    /**
-     * Function for updating the avatar.
-     * attachmentId will be enum from the attachment enum.
-     * todo: This isn't non-custodial figure out a way to make it non-custodial
-     * Some custom modification to ERC1155 may help.
-     * NFTs won't get locked on contract forever since owner can remove attachment anytime.
-     */
     function addAttachment(uint avatarId, string memory attachmentName, uint attachmentId) external {
         uint tokenId = attachmentStartId[attachmentName] + attachmentId;
-        safeTransferFrom(_msgSender(), address(this), tokenId, 1, "");
+        attachmentInUse[_msgSender()][tokenId] += 1;
+        // safeTransferFrom(_msgSender(), address(this), tokenId, 1, "");
         emit AttachmentAdded(_msgSender(), avatarId, attachmentName, tokenId);
     }
 
     function removeAttachment(uint avatarId, string memory attachmentName, uint attachmentId) external {
         uint tokenId = attachmentStartId[attachmentName] + attachmentId;
-        safeTransferFrom(address(this), _msgSender(), tokenId, 1, "");
+        attachmentInUse[_msgSender()][tokenId] -= 1;
+        // safeTransferFrom(address(this), _msgSender(), tokenId, 1, "");
         emit AttachmentRemoved(_msgSender(), avatarId, attachmentName, tokenId);
     }
 
     function buyAttachment(string memory attachmentName, uint attachmentId) external {
+        _burn(_msgSender(), TRANSFORMIUM, attachmentCreationFee);
         uint tokenId = attachmentStartId[attachmentName] + attachmentId;
         _mint(_msgSender(), tokenId, 1, "");
     }
 
     function sellAttachment(string memory attachmentName, uint attachmentId) external {
+        _mint(_msgSender(), TRANSFORMIUM, attachmentCreationFee, "");
         uint tokenId = attachmentStartId[attachmentName] + attachmentId;
         _burn(_msgSender(), tokenId, 1);
     }
 
-    function onERC1155Received(
-        address operator,
+    function safeTransferFrom(
         address from,
+        address to,
         uint256 id,
-        uint256 value,
-        bytes calldata data
+        uint256 amount,
+        bytes memory data
     )
-    external
-    override
-    returns(bytes4){
-        return bytes4(keccak256("onERC1155Received(address,address,uint256,uint256,bytes)"));
+        public
+        override
+    {
+        require(balanceOf(from, id) - attachmentInUse[from][id] >= amount, "Avatars: Insufficient tokens");
+        super.safeTransferFrom(from, to, id, amount, data);
     }
 
-    function onERC1155BatchReceived(
-        address operator,
+    function safeBatchTransferFrom(
         address from,
-        uint256[] calldata ids,
-        uint256[] calldata values,
-        bytes calldata data
+        address to,
+        uint256[] memory ids,
+        uint256[] memory amounts,
+        bytes memory data
     )
-    external
-    override
-    returns(bytes4){
-        return bytes4(keccak256("onERC1155BatchReceived(address,address,uint256[],uint256[],bytes)"));
+        public
+        virtual
+        override
+    {
+        for (uint256 i = 0; i < ids.length; ++i) {
+            require(balanceOf(from, ids[i]) - attachmentInUse[from][ids[i]] >= amounts[i], "Avatars: Insufficient tokens");
+        }
+        super.safeBatchTransferFrom(from, to, ids, amounts, data);
     }
 }
