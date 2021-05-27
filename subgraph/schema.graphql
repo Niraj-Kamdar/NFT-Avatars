@@ -1,14 +1,29 @@
+type User @entity {
+  id: ID! # account adress
+  avatars: [Avatar!] @derivedFrom(field: "owner")
+  attachments: [Attachment!] @derivedFrom(field: "owner")
+}
+
 type Avatar @entity {
-  id: ID!
-  owner: Bytes!
+  id: ID! # tokenId of avatar
   imageUrl: String!
-  attachments: [Attachment!] @derivedFrom(field: "avatar")
+  seed: BigInt! # random seed used for generating base avatar
+  owner: User!
+  attachments: [AvatarAttachment!] @derivedFrom(field: "avatar")
 }
 
 type Attachment @entity {
-  id: ID!
+  id: ID! # owner-tokenId
+  owner: User!
   tokenId: BigInt!
   type: String!
   value: String!
-  avatar: Avatar
+  amount: BigInt!
+  avatars: [AvatarAttachment!] @derivedFrom(field: "attachment")
+}
+
+type AvatarAttachment @entity {
+  id: ID!   # Set to `${avatar.id}-${attachment.id}`
+  avatar: Avatar!
+  attachment: Attachment!
 }

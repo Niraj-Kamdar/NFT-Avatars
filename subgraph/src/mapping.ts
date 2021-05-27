@@ -4,7 +4,7 @@ import { AttachmentMap } from './utils'
 
 const API_URL = "https://avatars.dicebear.com/api/avataaars/"
 
-export function handleAvatarCreated(event: AvatarCreated): void {
+export function handleMinting(event: AvatarCreated): void {
   let avatar = new Avatar(event.params.avatarId.toHex())
   avatar.owner = event.params.owner
   avatar.imageUrl = API_URL + avatar.id + ".svg?"

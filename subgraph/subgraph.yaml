@@ -21,8 +21,10 @@ dataSources:
         - name: Avatars
           file: ./abis/Avatars.json
       eventHandlers:
-        - event: AvatarCreated(indexed address,uint256)
-          handler: handleAvatarCreated
+        - event: TransferSingle(indexed address,indexed address,indexed address,uint256,uint256)
+          handler: handleMinting
         - event: AttachmentAdded(indexed address,uint256,string,uint256)
           handler: handleAttachmentAdded
+        - event: AttachmentRemoved(indexed address,uint256,string,uint256)
+          handler: handleAttachmentRemoved
       file: ./src/mapping.ts
